@@ -3,7 +3,7 @@ from django.core.exceptions import MiddlewareNotUsed
 from django.utils import translation
 
 
-class MyLocaleMiddleware(object):
+class UrlLocaleMiddleware(object):
 
     def __init__(self):
         if not settings.USE_I18N:
